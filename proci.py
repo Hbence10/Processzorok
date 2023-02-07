@@ -3,7 +3,7 @@
 '''Tomi: 3,4,6 Hbence: 1,2,5'''
 
 
-file = open("asd.txt", "r")
+file = open("processzorok.txt", "r")
 file_data=[]
 ujproci=open("ujproci.txt", "w")
 
@@ -25,3 +25,8 @@ for i in range(len(file_data)):
     márka.append(file_data[i][1])
 
 print(len(márka))
+
+
+#2
+print("AMD db száma: ", márka.count("AMD"))
+print("Intel db száma: ", márka.count("Intel"))
