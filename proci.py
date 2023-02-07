@@ -1,8 +1,6 @@
-
 '''Tomi: 3,4,6 Hbence: 1,2,5'''
 
-
-file = open("asd.txt", "r")
+file = open("processzorok.txt", "r")
 ujproci=open("ujproci.txt", "w")
 file_data=[]
 márka = []
