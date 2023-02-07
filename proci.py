@@ -4,11 +4,13 @@
 
 
 file = open("processzorok.txt", "r")
-file_data=[]
 ujproci=open("ujproci.txt", "w")
-
-
+file_data=[]
 márka = []
+celeron = []
+
+
+
 
 for jatek in file:
     if jatek[-1] == "\n":
@@ -30,3 +32,10 @@ print(len(márka))
 #2
 print("AMD db száma: ", márka.count("AMD"))
 print("Intel db száma: ", márka.count("Intel"))
+
+#4
+for i in range(len(file_data)):
+    if "Celeron" in file_data[i][2]:
+        celeron.append(file_data[i][2])
+
+print(celeron)
