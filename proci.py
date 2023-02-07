@@ -1,6 +1,4 @@
 '''Tomi: 3,4,6 Hbence: 1,2,5'''
-
-
 file=open("processzorok.txt", "r")
 file_data=[]
 
@@ -11,4 +9,3 @@ for jatek in file:
          file_data.append(jatek[:-1].split("\t"))
 
 del file_data[0]
-
