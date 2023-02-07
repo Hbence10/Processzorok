@@ -3,8 +3,9 @@
 '''Tomi: 3,4,6 Hbence: 1,2,5'''
 
 
-file=open("processzorok.txt", "r")
+file = open("asd.txt", "r")
 file_data=[]
+márka = []
 
 for jatek in file:
     if jatek[-1] == "\n":
@@ -14,4 +15,9 @@ for jatek in file:
 
 del file_data[0]
 
-#3
+#1
+
+for i in range(len(file_data)):
+    márka.append(file_data[i][1])
+
+print(len(márka))
