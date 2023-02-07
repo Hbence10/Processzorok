@@ -1,0 +1,44 @@
+AMD Athlon 64 X2 QL64
+AMD Athlon TM Neo MV-40
+AMD Mobil Sempron SI-40
+AMD Turion64 X2 TL60
+AMD Turion64 X2 TL64
+AMD Turion64 X2 TL62
+Intel Celeron 900
+Intel Celeron Dual-Core T1600
+Intel Celeron Dual-Core T1700
+Intel Celeron Dual-Core T3000
+Intel Celeron M 560
+Intel Centrino Atom 1600
+Intel Centrino Atom N270
+Intel Centrino Atom N280
+Intel Centrino Atom Z520
+Intel Centrino Atom Z530
+Intel Core Duo T3400
+Intel Core2 Duo P7350
+Intel Core2 Duo P8400
+Intel Core2 Duo P8600
+Intel Core2 Duo P8700
+Intel Core2 Duo SL9400
+Intel Core2 Duo SU7300
+Intel Core2 Duo SU9300
+Intel Core2 Duo SU9400
+Intel Core2 Duo T5670
+Intel Core2 Duo T5870
+Intel Core2 Duo T6400
+Intel Core2 Duo T6500
+Intel Core2 Duo T6570
+Intel Core2 Duo T6600
+Intel Core2 Duo T6670
+Intel Core2 Duo T7300
+Intel Core2 Duo T7500
+Intel Core2 Duo T8300
+Intel Core2 Duo T9300
+Intel Core2 Duo T9400
+Intel Core2 Solo SU3500 ULV
+Intel Pentium Dual Core SU4100
+Intel Pentium dual-core T4200
+Intel Pentium dual-core T4300
+Intel Celeron M ULV723
+VIA Via Nano ULV 2250
+AMD Athlon 64 X2 QL6
