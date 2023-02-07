@@ -1,9 +1,8 @@
 
-
 '''Tomi: 3,4,6 Hbence: 1,2,5'''
 
 
-file = open("processzorok.txt", "r")
+file = open("asd.txt", "r")
 ujproci=open("ujproci.txt", "w")
 file_data=[]
 márka = []
@@ -38,4 +37,8 @@ for i in range(len(file_data)):
     if "Celeron" in file_data[i][2]:
         celeron.append(file_data[i][2])
 
-print(celeron)
+print("Ezek a celeron proceszorok állnak rendelkezésre: ",celeron)
+
+#5
+AMD = márka.count("AMD")
+print("Százalékosan ennyi AMD található:",len(márka)/100*AMD,"%")
