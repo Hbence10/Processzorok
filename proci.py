@@ -5,6 +5,8 @@
 
 file=open("processzorok.txt", "r")
 file_data=[]
+ujproci=open("ujproci.txt", "w")
+
 
 for jatek in file:
     if jatek[-1] == "\n":
@@ -14,4 +16,3 @@ for jatek in file:
 
 del file_data[0]
 
-#3
