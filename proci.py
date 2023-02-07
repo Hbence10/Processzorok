@@ -1,8 +1,7 @@
-
 '''Tomi: 3,4,6 Hbence: 1,2,5'''
 
 
-file = open("asd.txt", "r")
+file = open("processzorok.txt", "r")
 ujproci=open("ujproci.txt", "w")
 file_data=[]
 márka = []
@@ -27,13 +26,12 @@ for i in range(len(file_data)):
 
 print(len(márka))
 
+#3
+
 
 #2
 print("AMD db száma: ", márka.count("AMD"))
 print("Intel db száma: ", márka.count("Intel"))
-
-#3
-
 
 #4
 for i in range(len(file_data)):
@@ -47,3 +45,5 @@ AMD = márka.count("AMD")
 print("Százalékosan ennyi AMD található:",len(márka)/100*AMD,"%")
 
 #6
+for i in range(len(file_data)):
+    ujproci.write(file_data[i][1] + file_data[i][2] + "\n")
