@@ -1,18 +1,14 @@
+'''Tomi: 3,4,6 Hbence: 1,2,5'''
+
+
 file=open("processzorok.txt", "r")
 file_data=[]
 
-2
-1
-5
-
-jatekosok = open("jatekos2.txt","r",encoding="UTF-8")
-Ljatekosok = []
-poszt = []
-
-for jatek in jatekosok:
+for jatek in file:
     if jatek[-1] == "\n":
-        Ljatekosok.append(jatek[:-1].split("\t"))
+        file_data.append(jatek[:-1].split("\t"))
     else:
-         Ljatekosok.append(jatek[:-1].split("\t"))
+         file_data.append(jatek[:-1].split("\t"))
 
-del Ljatekosok[0]
+del file_data[0]
+
