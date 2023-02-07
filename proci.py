@@ -32,6 +32,9 @@ print(len(márka))
 print("AMD db száma: ", márka.count("AMD"))
 print("Intel db száma: ", márka.count("Intel"))
 
+#3
+
+
 #4
 for i in range(len(file_data)):
     if "Celeron" in file_data[i][2]:
@@ -42,3 +45,5 @@ print("Ezek a celeron proceszorok állnak rendelkezésre: ",celeron)
 #5
 AMD = márka.count("AMD")
 print("Százalékosan ennyi AMD található:",len(márka)/100*AMD,"%")
+
+#6
