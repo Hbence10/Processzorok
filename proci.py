@@ -46,4 +46,4 @@ print("Százalékosan ennyi AMD található:",len(márka)/100*AMD,"%")
 
 #6
 for i in range(len(file_data)):
-    ujproci.write(file_data[i][1] + file_data[i][2] + "\n")
+    ujproci.write(file_data[i][1] + " " + file_data[i][2] + "\n")
